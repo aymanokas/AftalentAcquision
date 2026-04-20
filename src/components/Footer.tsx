@@ -39,11 +39,9 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <a href="#" className="flex items-center gap-2">
-              <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary-600 text-white font-bold text-lg">
-                TA
-              </div>
+              <img src="/AFLogojfif.jpeg" alt="AF Talent Acquisition" className="h-10 w-10 rounded-full object-cover" />
               <span className="text-lg font-bold text-gray-900 dark:text-white">
-                TalentAcq
+                AF Talent Acquisition
               </span>
             </a>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-gray-600 dark:text-gray-400">
@@ -88,7 +86,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-gray-200 pt-8 sm:flex-row dark:border-gray-800">
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            &copy; {new Date().getFullYear()} TalentAcq. {t.rights[lang]}
+            &copy; {new Date().getFullYear()} AF Talent Acquisition. {t.rights[lang]}
           </p>
           <button
             onClick={toggleLang}

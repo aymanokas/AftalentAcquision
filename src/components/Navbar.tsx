@@ -41,11 +41,9 @@ export default function Navbar() {
         <div className="flex h-16 items-center justify-between sm:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
-            <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary-600 text-white font-bold text-lg">
-              TA
-            </div>
+            <img src="/AFLogojfif.jpeg" alt="AF Talent Acquisition" className="h-10 w-10 rounded-full object-cover" />
             <span className="text-lg font-bold text-gray-900 dark:text-white">
-              TalentAcq
+              AF Talent Acquisition
             </span>
           </a>
 
